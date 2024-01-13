@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300;1,400&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #89CFF0;
+    color: #1270c8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    align-content:auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 11px;
+    list-style-type: decimal;
+}
+
+nav li {
+    display: inline;
+    margin-right: 5px;
+    display: list-item;
+    text-align: center;
+    background-color: #B9D9EB;
+    padding:21px;
+    font-size: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color:#F0F8FF;
+    border: 1px solid #EBFCFB;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    display: block;
+}
+
+h2{
+    text-align: center;
+}
+
+h3 {
+    background-color: #89CFF0;
+    padding: 15px;
+    margin: 0;
+    text-align: center;}
+
+
+nav a {
+    cursor: none;
+    text-decoration: none;
+    color:#1270c8;
+}
