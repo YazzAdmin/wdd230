@@ -23,6 +23,7 @@ ul {
     list-style-type: none;
     padding: 11px;
     list-style-type: decimal;
+    font-size: 20px;
 }
 
 nav li {
@@ -32,7 +33,7 @@ nav li {
     text-align: center;
     background-color: #B9D9EB;
     padding:10px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 main {
@@ -58,19 +59,28 @@ h2{
     text-align: center;
     border-bottom-style:double;
     border-color: #1270c8;
-    padding-bottom: 34px;
-    font-size: 45px;
+    padding-bottom: 15px;
+    font-size: 30px;
 }
 
 h3 {
     background-color: #89CFF0;
     padding: 15px;
     margin: 0;
-    text-align: center;}
+    text-align: center;
+    font-size: 25px;
+}
 
 
 nav a {
     cursor: none;
     text-decoration: none;
     color:#1270c8;
+}
+
+footer {
+    background-color: #1270c8;
+    padding: 25px 50px;
+    color:#89CFF0;
+    font-size: 20px;;
 }
