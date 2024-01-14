@@ -1,6 +1,3 @@
-// const options = {weekday:"long", day:"numeric", month:"long", year:"numeric"};
-// document.getElementById("lastmodify").textContent = new Date().toLocalDateString("en-US", options);
-
 const options = {
     weekly: "long",
     day: "numeric",
