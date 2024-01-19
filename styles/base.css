@@ -2,7 +2,7 @@
 
 body {
     font-family: "Karla", sans-serif;
-    background-color: #89CFF0;
+    background-color: #ade1f8;
     color: #1270c8;
     margin: 0;
     padding: 0;
@@ -20,9 +20,10 @@ header img {
 
 ul {
     list-style-type: none;
-    padding: 11px;
+    padding: 10px;
     list-style-type: decimal;
     font-size: 20px;
+    justify-content:first baseline;
 }
 
 nav li {
