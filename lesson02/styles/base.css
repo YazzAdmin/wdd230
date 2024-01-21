@@ -1,22 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+* {
+    margin: 0;
+    padding: 0;
+  }
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #9cd7f2; 
     color: #fff; 
     margin: 0;
+    padding:0;
+    max-width: 60%;
+    margin: 0 auto;
 }
 
-header, footer {
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 767px;
+}
+
+
+header {
     background-color: #63c0eb; 
     color: #fff;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
+    align-items: center;
+    max-width: 95%;
+    margin: 0 auto;
 }
 
 .main-container {
     display: grid;
-    
 }
 
 .card {
@@ -24,11 +40,11 @@ header, footer {
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
-    background-color: #fff;
+    background-color: #b1dcf0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease-in-out;
     width: 80%; 
-    max-width: 400px; /
+    max-width: 400px; 
+    margin: 0 auto;
 }
 
 .card:hover {
@@ -37,7 +53,7 @@ header, footer {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    grid-template-columns: 1fr 1fr; 
     gap: 20px; 
 	justify-content: center;
 	margin: 0 auto; 
@@ -47,12 +63,13 @@ header, footer {
 h2 {
     color: #007bff; 
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: #89CFF0;
 }
 
 a {
     color: #007bff; 
-    text-decoration: none;
+    text-decoration: inline;
     transition: color 0.3s ease-in-out;
 }
 
@@ -63,7 +80,7 @@ a:hover {
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 3px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
 }
@@ -77,6 +94,18 @@ p {
     color: #555;
 }
 
+footer {
+    background-color: #63c0eb; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    max-width: 96%;
+}
+section{
+    margin: 0;
+    padding: 0;
+}
 
 
 /* Media queries for responsive design */
@@ -95,3 +124,4 @@ p {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 }
+
