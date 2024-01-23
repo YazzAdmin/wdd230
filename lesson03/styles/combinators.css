@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  
+}
+
+header {
+  background: #7fec6c;
+  padding: 2rem;
+  color: #728070; 
+
+}
+
+div {
+  display: inline;
+  margin-right: 5px;
+
+}
+main {
+  background: #26b71b;
+  height: 100%;
+  padding: 1rem;
+  margin:auto 0;
+  color:aliceblue;
+}
+
+footer {
+  background: #7fec6c;
+  padding: 2rem;
+  text-align: center;
+
+}
