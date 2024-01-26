@@ -36,6 +36,7 @@ nav li {
     font-size: 24px;
 }
 
+
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -94,13 +95,20 @@ body {
 	font-family: Roboto, sans-serif;
 }
 /* Mobile View ***************/
+#menu-container{
+    position:relative;
+}
+
 #menu {
-	display: block;
+    position: absolute;
+    top:-345px;
+    right:10px;   
+    display:block;
 	font-size: 2rem;
 	font-weight:700;
 	text-decoration: none;
-	padding: .5rem .75rem;
-	background-color: #B9D9EB;
+	padding: 0.5rem .75rem;
+	background-color: #89CFF0;
 	color: #000;
 }
 
@@ -108,11 +116,8 @@ body {
 	content: "≡";
 }
 
-
-.navigation {
-	list-style: none;
-	margin: 0 auto;
-	max-width: 760px;
+#menu.open::before {
+    content: "X";
 }
 
 .navigation li {
@@ -138,9 +143,13 @@ body {
 	display: block;
 }
 
-#menu.show::before {
-	content: "X";
-}
+#map{
+	text-align: center;
+	height : 100px ;
+	width :100% ;
+	
+  }
+
 
 /* Media Query for wider than mobile viewports. Breakpoint should be based upon the design and content and use em units to be relative to the user's font size versus fixed with pixels.*/
 @media only screen and (min-width: 40em) {

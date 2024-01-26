@@ -22,7 +22,8 @@
         <h1>Yazmin Berenice Cuevas Martinez</h1>
         
     </header>
-    <a id="menu" href="#"></a>
+    <div id="menu-container">
+         <a id="menu" href="#"></a>
     <nav>
         <ul class="navigation">
             <li><a href="#">Home</a></li>             
@@ -32,7 +33,7 @@
             <li><a href="https://www.churchofjesuschrist.org/study/scriptures/ot/ps/27?lang=spa" target="_blank">Scripture</a></li>
         </ul>
     </nav>
-
+    </div>
 
 
     <main>
@@ -59,15 +60,21 @@
             <p>Weather: Sunny</p>
             <p>Number of Visits: 100</p>
         </section>
-        <iframe src="https://www.google.com/maps/place/Tijuana,+Baja+California/@32.4570858,-116.9514843,12z/data=!4m6!3m5!1s0x80d9390226587bd3:0x14724bafa4e62456!8m2!3d32.5149469!4d-117.0382471!16zL20vMHBzd2M" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div id="mapdiv">
+       
+            <iframe  id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d215460.89724906505!2d-117.11629430614465!3d32.45726823069158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9390226587bd3%3A0x14724bafa4e62456!2sTijuana%2C%20Baja%20California!5e0!3m2!1sen!2smx!4v1706251796479!5m2!1sen!2smx"></iframe>
+
+        </div>
     </main>
     <footer>
         &copy; 2024 | Yazmin Berenice Cuevas Martinez | Mexico |
         
-        <p>Today's Date:  </p><span id="lastModified"></span>
+        <p>Today's Date:  </p>
+        <span id="lastModified"></span>
     </footer>
+    <script src="scripts/base.js"></script>
     <script src="scripts/getdates.js"></script>
-    <script src="script.js"></script>
+   
 </body>
 
 </html>

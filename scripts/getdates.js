@@ -4,10 +4,8 @@ const options = {
     month: "long",
     year: "numeric",
   };
-  document.getElementById("lastModified").textContent =
-    "Last Modified: " + new Date().toLocaleDateString("en-US", options);
+  document.getElementById("lastModified").textContent ="Last Modified:" + new Date().toLocaleDateString("en-US", options);
   document.getElementById("year").textContent = new Date().getFullYear();
   
-
 
 
