@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Ubuntu&display=swap');
+
+:root {
+    /* Color schema options */
+    --primary-color: #219EBC;
+    --secondary-color: #8ECAE6;
+    --accent1-color: #FFB703;
+    --accent2-color: #023047;
+}
+header {
+    text-align: center;
+    background-color: #8ECAE6;
+}
+
+.primary {
+    background-color: var(--primary-color);
+  }
+.secondary {
+    background-color: var(--secondary-color);
+}
+.accent1 {
+    background-color: var(--accent1-color);
+}
+.accent2 {
+    background-color: var(--accent2-color);
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+
+header {
+  text-align: center;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+h4 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+p{
+  font-size: 23px;
+}
