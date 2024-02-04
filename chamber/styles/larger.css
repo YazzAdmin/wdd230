@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: "Karla", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 /* mobile **************************/
@@ -20,8 +20,9 @@ header {
 
 header,
 main {
-	max-width: 767px;
+	
 	margin: 0 auto;
+	max-width: 50%;
 }
 
 h1 {
@@ -62,5 +63,12 @@ nav a:hover {
 	}
 	nav ul li {
 		flex: 1 1 100%;
+	}
+
+	#main-image {
+		width: 100%; 
+		margin: 0; 
+		padding: 0; 
+		border-radius: 0; 
 	}
 }

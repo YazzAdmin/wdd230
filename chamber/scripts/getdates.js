@@ -4,7 +4,7 @@ const options = {
     month: "long",
     year: "numeric",
   };
-  document.getElementById("lastModified").textContent ="Last Modified:" + new Date().toLocaleDateString("en-US", options);
+  document.getElementById("lastModification").textContent ="Last Modification:" + new Date().toLocaleDateString("en-US", options);
   document.getElementById("year").textContent = new Date().getFullYear();
   
 
