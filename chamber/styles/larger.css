@@ -10,12 +10,12 @@ body {
 
 /* mobile **************************/
 header {
-	background-color: #89CFF0;
+	background-color: #023047;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	border: 1px solid #8ECAE6;
 }
 
 header,
@@ -29,7 +29,7 @@ h1 {
 }
 
 nav {
-	background-color: #89CFF0;
+	background-color: #FFB703;
 	margin: 0 auto;
 	max-width: 800px;
 	
