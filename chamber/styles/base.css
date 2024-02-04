@@ -186,13 +186,13 @@ body {
   
   }
 
-/* Media Query for wider than mobile viewports. Breakpoint should be based upon the design and content and use em units to be relative to the user's font size versus fixed with pixels.*/
+/* Media Query for wider than mobile viewports.*/
 @media only screen and (min-width: 40em) {
 	.navigation {
 		display: flex;
 	}
 	.navigation li {
-		display: block; /* change state in small view */
+		display: block; 
 		flex: 1 1 100%;
 	}
 	.navigation a {
