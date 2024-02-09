@@ -16,10 +16,10 @@ button.addEventListener('click', () => { // Create a click event listener for th
       input.focus(); // Send the focus to the input element.
     });
 
-    input.value = ''; // Change the input value to nothing to clean up the interface for the user.
-    input.focus(); // Send the focus back to the input element.
-  } else {
-    // Provide a message or do nothing and return the focus to the input field.
+  }
+  else {
+    // Provide a message to remind the user to enter a book and chapter.
+    alert("Please enter a book and chapter."); // Output a message to the console.
     input.focus(); // Send the focus back to the input element.
   }
 });
