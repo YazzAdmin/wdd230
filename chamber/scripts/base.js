@@ -6,3 +6,10 @@ hamButton.addEventListener('click', () => {
 	hamButton.classList.toggle('open');
 });
 
+const darkModeToggle = document.getElementById('darkModeToggle');
+
+darkModeToggle.addEventListener('change', () => {
+    document.body.classList.toggle('dark-mode');
+});
+
+

@@ -11,7 +11,6 @@ body {
 }
 
 
-
 header {
     padding: 20px;
     align-items: center;
@@ -53,10 +52,174 @@ nav li {
 
 main {
     max-width: 800px;
-    
+    margin: 0 auto;
     padding: 20px;
+    box-sizing: border-box; 
 }
 
+/* Toggle switch styles */
+.toggle-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    position: absolute;
+    opacity: 0;
+}
+
+.toggle {
+    cursor: pointer;
+    display: block;
+    width: 60px;
+    height: 30px;
+    background-color: #FFB703;
+    border-radius: 15px;
+    position: relative;
+}
+
+.toggle:before {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: #023047;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: 0.4s;
+}
+
+.checkbox:checked + .toggle {
+    background-color: #FFB703;
+}
+
+.checkbox:checked + .toggle:before {
+    transform: translateX(30px);
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #023047;
+    color: #8ECAE6;
+}
+
+.dark-mode header img:first-child {
+    border-color: #8ECAE6;
+}
+
+.dark-mode nav a {
+    color: #219EBC;
+}
+
+.dark-mode .toggle {
+    background-color: #8ECAE6;
+}
+
+.dark-mode .toggle:before {
+    background-color: #023047;
+}
+
+
+.header-content {
+    position: relative;
+}
+
+.logo {
+    display: block;
+    max-width: 100%;
+}
+
+.join-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFB703;
+    color: #023047;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.join-button:hover {
+    background-color: #FFD166;
+}
+
+.placeholder {
+    border: 1px dashed #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFD166;
+    font-weight: bold;
+    text-align: center;
+    color: #023047;
+    width: 300px; /* Set a fixed width for the placeholders */
+    height: 150px; /* Set a fixed height for the placeholders */
+    margin: 0 auto; /* Center the placeholders */
+    box-sizing: border-box; /* Include padding and border in the width */
+    overflow: hidden;
+}
+
+.placeholder h2 {
+    margin-bottom: 20px;
+}
+
+.placeholder p {
+    margin: 0;
+    word-wrap: break-word; /* Allow words to wrap */
+    font-size: medium;
+}
+
+
+#weather-section {
+    float: right;
+    width: calc(50% - 1px); 
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#event-section {
+    width: calc(50% - 20px);
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.spotlight {
+    width: calc(33.33% - 20px); /* Adjust as needed */
+    float: left;
+    margin: 10px;
+    margin-bottom: 29px;
+}
+
+.spotlight-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    font-size: medium;
+    color: #023047;
+}
+
+.spotlight h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.spotlight p {
+    font-size: 16px;
+    color: #333;
+}
+
+#text p {
+    border: 3px solid #FFB703;
+    padding: 20px; 
+    box-shadow:#8ECAE6
+}
 .card {
     background-color:#8ECAE6;
     border: 1px solid #023047;
@@ -134,7 +297,7 @@ body {
 
 #menu {
     position: absolute;
-    top:-70px;
+    top:-240px;
     right:10px;   
     display:block;
 	font-size: 2rem;
@@ -208,6 +371,8 @@ body {
     ul{
         margin: 0;
     }
+
+    
 }
 
 

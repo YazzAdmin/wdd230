@@ -55,6 +55,8 @@ nav a:hover {
 	color: orange;
 }
 
+
+
 /* Larger Views ******************************/
 @media (min-width: 780px) {
 	nav ul {
@@ -71,4 +73,6 @@ nav a:hover {
 		padding: 0; 
 		border-radius: 0; 
 	}
+
+	
 }
