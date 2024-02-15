@@ -37,6 +37,15 @@
 
 
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-profile.webp" media="(max-width: 400px)">
+                <source srcset="images/hero-landscape.webp" media="(max-width: 960px)">
+                <img src="images/hero-medium.webp" alt="Seoul Korea Temple" width="1000" height="500">
+            </picture>
+            <div class="herolabel">
+                <p>Seoul Korea Temple</p>
+        </div>
         <h2> ~WDD 230: Web Frontend Development~ </h2>
         <section class="card">
             <h3>Learning Activities</h3>
@@ -66,12 +75,14 @@
 
         </div>
     </main>
+ 
     <footer>
         &copy; 2024 | Yazmin Berenice Cuevas Martinez | Mexico |
         
         <p>Today's Date:  </p>
         <span id="lastModified"></span>
     </footer>
+
     <script src="scripts/base.js"></script>
     <script src="scripts/getdates.js"></script>
    
