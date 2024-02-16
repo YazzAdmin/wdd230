@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Ensenada Chamber of Commerce">
-    <meta property="og:type" content="website"><h1>Ensenada, Baja California. Chamber of Commerce</h1>
+    <meta property="og:type" content="website">
     <meta property="og:image" content="https://foreverkaren.com/wp-content/uploads/2023/07/Celebrity-Solstice-docked-in-Ensenada-cruise-port-1024x597.jpg.webp">
     <meta property="og:url" content="https://yazzadmin.github.io/wdd230/">
     
@@ -47,7 +47,13 @@
         <section>
             <h3>Connecting Businesses, Driving Growth</h3>
             <div class="header-content">
-            <img id="main-image" src="images/pexels-ali-camacho-adarve-5554172.jpg" alt="ensenada">
+                <div class="hero">
+                    <picture>
+                        <source srcset="images/wdd230-org-medium.webp" media="(max-width: 500px)">
+                        <source srcset="images/wdd230-org-small.webp" media="(max-width: 1000px)">
+                        <img src="images/wdd230-org-large.webp" alt="org" width="1500" height="750">
+                </div>
+                    </picture>
             <a href="#" class="join-button">Join Our Team</a>
             </div>
         <div id="text">
@@ -57,7 +63,10 @@
         </div>
         <div id="weather-section" class="placeholder">
             <h2>Weather</h2>
-            <p>Now in Ensenada🌧️</p>
+            <p>Now in Ensenada</p>
+            <p>Temperature: <span id="temperature">55</span> °F</p>
+            <p>Wind Speed: <span id="windSpeed">6.5</span> mph</p>
+            <p>Wind Chill: <span id="windChill"></span></p>
 
         </div>
         <div id="event-section" class="placeholder">
@@ -95,10 +104,11 @@
     </main>
     <footer>
         &copy; 2024 | Ensenada Chamber of Commerce | Yazmin Berenice Cuevas Martinez|WDD 230 Project | <span id="lastModification"></span>|
-        
+        <h1>Ensenada, Baja California. Chamber of Commerce</h1>
        
     </footer>
     <script src="scripts/base.js"></script>
+    <script src="scripts/windchill.js"></script>
     <script src="scripts/getdates.js"></script>
    
 </body>

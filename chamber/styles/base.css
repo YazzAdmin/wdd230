@@ -24,7 +24,12 @@ header img:first-child {
     max-width: 100%;
 }
 
-#main-image{
+.hero img {
+    width: 100%;
+    height: auto;
+  }
+
+#hero-image{
     border-radius: 3px;
     margin: 50px auto;
     max-width: 100%;
