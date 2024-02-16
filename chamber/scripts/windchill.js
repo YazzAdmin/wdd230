@@ -21,9 +21,11 @@ var windSpeedElement = document.getElementById('windSpeed');
 var temperature = parseFloat(temperatureElement.textContent);
 var windSpeed = parseFloat(windSpeedElement.textContent);
 
+
 // Calculate wind chill
 var windChill = calculateWindChill(temperature, windSpeed);
 
 // Display wind chill value on the webpage
 var windChillElement = document.getElementById('windChill');
 windChillElement.textContent = (windChill !== "N/A") ? windChill + " °F" : "N/A";
+
