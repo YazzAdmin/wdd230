@@ -11,6 +11,7 @@ function calculateWindChill(temperature, windSpeed) {
         // Return "N/A" if temperature or wind speed is outside the specified limits
         return "N/A";
     }
+    
 }
 
 // Get temperature and wind speed values from HTML
