@@ -119,6 +119,23 @@ footer {
 }
 
 * {
+	box-sizing: border-box;
+}
+
+
+.label {
+	font-family: Karla, sans-serif;
+	font-weight: 600;
+}
+
+#visits {
+	color: #1270c8;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
