@@ -462,7 +462,67 @@ aside {
     text-align: center;
 }
 
+h1{
+    text-align: center;
+    align-items: center;
+    border-style: dotted;
+    background-color: #FFB703;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-decoration-line: underline;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    align-items: center;
+    border-style: dotted;
+    background-color: #FFB703;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-decoration-line: underline;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
+
+h4{
+    text-align: center;
+    align-items: center;
+    border-style: dotted;
+    background-color: #FFB703;
+    text-decoration-line: underline;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: -5px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size:xx-large;
+}
+
+h3{
+    text-align: center;
+    align-items: center;
+    border-style: dotted;
+    background-color: #FFB703;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    text-decoration-line: underline;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
 /* Media Query for wider than mobile viewports.*/
 @media only screen and (min-width: 40em) {
 	.navigation {
