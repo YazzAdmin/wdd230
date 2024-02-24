@@ -73,6 +73,9 @@ nav a:hover {
 		padding: 0; 
 		border-radius: 0; 
 	}
+    #discover-main {
+        grid-template-columns: repeat(2, 1fr); 
+    }
 
 	
 }
