@@ -1,0 +1,59 @@
+table {
+	
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+}
+  
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--back);
+    font-size: 20px;
+}
+
+th[colspan="1"] {
+    background-color: #7b8cb5c5; 
+    border-top: none;
+    width: 126px;
+}
+
+
+ th[rowspan="3"] {
+    background-color: #3361d6c5; 
+    font-size: larger;
+}  
+
+th[colspan="4"] {
+    background-color: #7b8cb5c5; 
+    border-bottom: none;
+
+}  
+
+th,td {
+	padding:8px 10px;
+	border: 1px solid rgb(45, 66, 158);
+    text-align: center;
+    font-style:bold;
+
+}
+
+th {
+	background-color: var(--back2);
+	font-size: xx-large;
+    
+}
+
+th [colspan="1"]{ /* This targets the first td in each tbody row */
+    color: #801616; /* Light gray background color */
+
+}
+tbody tr:nth-child(odd) {
+	background-color: #cbd2e3;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #a0b4e4;
+}
