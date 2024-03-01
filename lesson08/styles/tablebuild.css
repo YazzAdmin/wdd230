@@ -5,6 +5,7 @@ table {
 	border-collapse: collapse;
     font-family: 'Times New Roman', Times, serif;
     width: 30%;
+    margin: auto;
 }
   
 caption {
@@ -14,10 +15,11 @@ caption {
     font-size: 20px;
 }
 
-th[colspan="1"] {
-    background-color: #7b8cb5c5; 
+
+
+table thead tr:last-child th:first-child {
+    background-color: #7b8cb5c5;
     border-top: none;
-    width: 124px;
 }
 
 
@@ -36,7 +38,8 @@ th,td {
 	padding:8px 10px;
 	border: 1px solid rgb(45, 66, 158);
     text-align: center;
-    
+    font-weight: bold;
+    font-size: larger;
 
 }
 
@@ -46,10 +49,7 @@ th {
     
 }
 
-th [colspan="1"]{ /* This targets the first td in each tbody row */
-    color: #801616; /* Light gray background color */
 
-}
 tbody tr:nth-child(odd) {
 	background-color: #cbd2e3;
 }
