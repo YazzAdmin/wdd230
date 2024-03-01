@@ -83,19 +83,19 @@ nav {
 .navigation {
     display: flex;
     justify-content: space-around; 
-    padding: 10px;
+    padding: 16px;
     list-style-type: none;
-    padding-block: 30px;
+    padding-block: 14px;
 }
 
 .navigation li {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .navigation a {
     text-decoration: none;
     color: #fff;
-    padding: 10px 15px;
+    padding: 6px;
 }
 
 .navigation a:hover {
