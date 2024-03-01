@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #89CFF0; /* Example primary color */
-    --font-family: Roboto, sans-serif; /* Example font family */
-    --form-width: 80%; /* Example form width */
+    --primary-color: #89CFF0; 
+    --font-family: Roboto, sans-serif; 
+    --form-width: 80%; 
 }
 
 /* Apply styles to form elements */
@@ -43,7 +43,7 @@ input[type="password"],
 input[type="email"],
 input[type="range"],
 button[type="submit"] {
-    width: calc(100% - 20px); /* Adjust for padding */
+    width: calc(100% - 20px); 
     padding: 10px;
     border: 1px solid #ced4da;
     border-radius: 4px;
@@ -63,19 +63,19 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #ade1f8; /* Example hover color */
+    background-color: #ade1f8; 
 }
 
 header {
-    background-color: var(--primary-color); /* Example background color */
-    color: #1270c8; /* Example text color */
-    padding: 20px; /* Example padding */
-    text-align: center; /* Example text alignment */
+    background-color: var(--primary-color); 
+    color: #1270c8; 
+    padding: 20px; 
+    text-align: center; 
 }
 
 nav {
-    max-width: 730px; /* Same max-width as header */
-    margin: 0 auto; /* Center the navigation */
+    max-width: 730px; 
+    margin: 0 auto; 
     background-color: #ade1f8;
     border-width: 100%;
 }
