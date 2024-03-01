@@ -23,7 +23,7 @@ table thead tr:last-child th:first-child {
 }
 
 
- th[rowspan="3"] {
+ th {
     background-color: #3361d6c5; 
     font-size: larger;
 }  
@@ -46,7 +46,7 @@ th,td {
 th {
 	background-color: var(--back2);
 	font-size: xx-large;
-    
+    background-color: #3361d6c5;
 }
 
 
