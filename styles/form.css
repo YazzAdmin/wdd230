@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #89CFF0; /* Example primary color */
+    --font-family: Roboto, sans-serif; /* Example font family */
+    --form-width: 80%; /* Example form width */
+}
+
+/* Apply styles to form elements */
+body {
+    font-family: var(--font-family);
+    text-align: left;
+    background-color: #ade1f8; 
+}
+
+header, footer, main {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 20px;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: var(--form-width);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:#1270c8;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="range"],
+button[type="submit"] {
+    width: calc(100% - 20px); /* Adjust for padding */
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #1270c8;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: var(--primary-color);
+    color: #1270c8;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ade1f8; /* Example hover color */
+}
+
+header {
+    background-color: var(--primary-color); /* Example background color */
+    color: #1270c8; /* Example text color */
+    padding: 20px; /* Example padding */
+    text-align: center; /* Example text alignment */
+}
+
+nav {
+    max-width: 730px; /* Same max-width as header */
+    margin: 0 auto; /* Center the navigation */
+    background-color: #ade1f8;
+    border-width: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around; 
+    padding: 10px;
+    list-style-type: none;
+    padding-block: 30px;
+}
+
+.navigation li {
+    margin-right: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.navigation a:hover {
+    background-color: #89CFF0;
+}
+
+#rating {
+    margin-top: 5px;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+
