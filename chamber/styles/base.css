@@ -655,3 +655,30 @@ discover h3{
     color: #1270c8; 
 }
 
+/*----------- Thank you STYLING --------------*/
+.thank-you-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #219EBC;
+    padding: 20px;
+}
+
+.thank-you-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-heading {
+    color: #1270c8;
+}
+
+.thank-you-text {
+    color: #023047;
+    font-size: 18px;
+}
+
+
