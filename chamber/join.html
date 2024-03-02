@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensenada Chamber of Commerce</title>
+    <meta name="description" content="Join">
+    <meta name="author" content="Yazmin Cuevas">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Ensenada Chamber of Commerce-Join">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://foreverkaren.com/wp-content/uploads/2023/07/Celebrity-Solstice-docked-in-Ensenada-cruise-port-1024x597.jpg.webp">
+    <meta property="og:url" content="https://yazzadmin.github.io/wdd230/">
+    
+</head>
+<body class="join-page">
+    <header>
+    <img src="images/lchamber.webp" alt="logo">
+    
+    </header>
+   
+    <div id="menu-container">
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>             
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href=#>Directory</a></li>
+                <li><a href=# target="_blank">Join</a></li>
+                
+            </ul>
+        </nav>
+    
+    
+   </div>
+        
+     
+    <main>
+        <div class="toggle-container">
+            <input type="checkbox" id="darkModeToggle" class="checkbox">
+            <label for="darkModeToggle" class="toggle"></label>
+        </div>
+        <section id="join-form">
+            <h1 id="join-heading">Join Application</h1>
+            
+            <form action="thankyou.html" method="get">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br>
+
+                <label for="position">Title/Position:</label>
+                <input type="text" id="position" name="position" required pattern="[A-Za-z -]{7,}"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="example@example.com"><br>
+
+                <label for="phone">Mobile Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br>
+
+                <label for="organization">Business/Organization Name:</label>
+                <input type="text" id="organization" name="organization" required><br>
+
+                <label for="membership">Membership Level:</label>
+                <select id="membership" name="membership">
+                        <option value="">Please Select</option>
+                    <option value="NP Membership">NP Membership (Free)</option>
+                    <option value="Bronze Membership">Bronze Membership</option>
+                    <option value="Silver Membership">Silver Membership</option>
+                    <option value="Gold Membership">Gold Membership</option>
+                </select><br>
+
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description"></textarea><br>
+
+                <input type="hidden" id="timestamp" name="timestamp">
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <aside id="membership-benefits">
+            <h2>Membership Level Benefits:</h2>
+            <ul>
+                <li><strong class="membership-level">NP Membership:</strong> <span class="membership-info">No fee</span></li>
+                <li><strong class="membership-level">Bronze Membership:</strong> <span class="membership-info">Coffee special discount and prices at events.</span></li>
+                <li><strong class="membership-level">Silver Membership:</strong> <span class="membership-info">20-30% discount at Restaurants.</span></li>
+                <li><strong class="membership-level">Gold Membership:</strong> <span class="membership-info">Access to the best wine, food and events as V.I.P.</span></li>
+            </ul>
+        </aside>
+    </main>
+
+        
+            
+    
+    
+    <footer>
+        &copy; 2024 | Ensenada Chamber of Commerce | Yazmin Cuevas|WDD 230 Project | <span id="lastModification"></span>|
+        <h1>Ensenada, Baja California. Chamber of Commerce</h1>
+               
+    </footer>
+    <script src="scripts/base.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/getdates.js"></script>
+           
+</body>
+        
+</html>

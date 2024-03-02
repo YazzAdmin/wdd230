@@ -462,7 +462,7 @@ aside {
     text-align: center;
 }
 
-h1{
+discover h1{
     text-align: center;
     align-items: center;
     border-style: dotted;
@@ -508,7 +508,7 @@ h4{
     font-size:xx-large;
 }
 
-h3{
+discover h3{
     text-align: center;
     align-items: center;
     border-style: dotted;
@@ -545,13 +545,113 @@ h3{
     ul{
         margin: 0;
     }
-
+    #join-form,
+    #membership-benefits {
+        width: calc(50% - 10px);
+    }
+    
+    body.join-page main {
+        display: flex;
+        justify-content: space-between;
+        align-items: left;
+    }
+    
+    body.join-page #join-form,
+    body.join-page #membership-benefits {
+        width: calc(50% - 10px);
+        margin-bottom: 30px;
+        
+    }
     
 }
 
+/*----------- FORM STYLING --------------*/
+
+#join-heading {
+    text-align: center;
+    color: #FFB703;
+}
+#join-form {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#join-form label {
+    font-weight: bold;
+    color: #1270c8;
+}
+
+#join-form input[type="text"],
+#join-form input[type="email"],
+#join-form input[type="tel"],
+#join-form textarea,
+#join-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#join-form input[type="submit"] {
+    background-color: #FFB703;
+    color: #1270c8;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#join-form input[type="submit"]:hover {
+    background-color: #8ECAE6;
+}
 
 
+#membership-benefits {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 6px;
+
+}
+
+#membership-benefits h2 {
+    font-size: 20px;
+    margin-bottom: 9px;
+    color: #FFB703;
+    background-color: white;
+    margin-top: 9px;
+    font-size: xx-large;
+    text-decoration-line: none;
+}
+
+#membership-benefits ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#membership-benefits li {
+    margin-bottom: 10px;
+    margin-top: 95px;
+    text-shadow: #8ECAE6;
+    
+}
+
+#membership-benefits strong.membership-level {
+    color: #1270c8; 
+}
 
 
-
+#membership-benefits .membership-info {
+    color: #1270c8; 
+}
 
