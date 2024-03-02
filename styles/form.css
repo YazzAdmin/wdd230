@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #89CFF0; /* Define primary color variable */
-    --form-width: 80%; /* Define form width variable */
+    --primary-color: #89CFF0; 
+    --form-width: 100%; 
 }
 
 :root {
@@ -51,7 +51,6 @@
     font-weight: bold;
 }
 
-/* Button hover effect */
 .form-page button[type="submit"]:hover {
     background-color: #ade1f8;
 }
