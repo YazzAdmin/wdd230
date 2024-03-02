@@ -553,7 +553,7 @@ discover h3{
     body.join-page main {
         display: flex;
         justify-content: space-between;
-        align-items: left;
+      
     }
     
     body.join-page #join-form,
@@ -642,7 +642,7 @@ discover h3{
 #membership-benefits li {
     margin-bottom: 10px;
     margin-top: 95px;
-    text-shadow: #8ECAE6;
+  
     
 }
 
