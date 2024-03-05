@@ -1,0 +1,50 @@
+{
+    "wardInformation": {
+    "familyName": "Cameron",
+    "moveInDate": "2024-03-4",
+    "numberOfPeople": 8,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Jeon Cameron",
+        "gender": "Male",
+        "birthdate": "1997-09-01"
+      },
+      {
+        "name": "Tae Cameron",
+        "gender": "Male",
+        "birthdate": "1995-12-30"
+      },
+      {
+        "name": "Jin Cameron",
+        "gender": "Female",
+        "birthdate": "1992-12-04"
+      },
+      {
+        "name": "Yazz Cameron",
+        "gender": "Female",
+        "birthdate": "1990-12-26"
+      },
+      {
+        "name": "Candy Cameron",
+        "gender": "Female",
+        "birthdate": "2000-08-10"
+      },
+      {
+        "name": "RM Cameron",
+        "gender": "Male",
+        "birthdate": "1994-09-12"
+      },
+      {
+        "name": "Suga Cameron",
+        "gender": "Male",
+        "birthdate": "1993-03-09"
+      },
+      {
+        "name": "Jimin Cameron",
+        "gender": "Male",
+        "birthdate": "1995-10-13"
+      }
+    ]
+    }
+  }
