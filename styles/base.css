@@ -21,10 +21,10 @@ header img {
 ul {
     list-style-type: none;
     padding: 10px;
-    list-style-type: decimal;
     font-size: 20px;
     
 }
+/* the ul used to have list-style-type:decimal ***************/
 
 nav li {
     display: inline;
