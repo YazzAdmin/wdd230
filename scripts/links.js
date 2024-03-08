@@ -2,14 +2,11 @@ const baseURL = "https://yazzadmin.github.io/wdd230/";
 const linksURL = "https://yazzadmin.github.io/wdd230/data/links.json";
 
 async function getLinks() {
-    try {
       const response = await fetch(linksURL);
       const data = await response.json();
-      displayLinks(data.lessons); // Pass only the lessons array to the displayLinks function
-    } catch (error) {
-      console.error("Error fetching links:", error);
-    }
-  }
+      displayLinks(data.lessons); 
+    } 
+  
   
   function displayLinks(lessons) {
     const learningActivities = document.getElementById("learning-activities");
