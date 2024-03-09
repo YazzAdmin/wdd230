@@ -1,0 +1,74 @@
+{
+    "members": [
+      {
+        "name": " Cafe con Leche",
+        "address": "Avenida Gastelum #789 Entre calles 7 y 8, Ensenada, Ensenada Municipality 22800 Mexico",
+        "phone": "+526461782011",
+        "website": "https://www.tripadvisor.com/Restaurant_Review-g150770-d10051325-Reviews-Cafe_con_Leche-Ensenada_Ensenada_Municipality_Baja_California.html",
+        "websiteName":"Direct Link: Cafe con Leche",
+        "img url": "https://media-cdn.tripadvisor.com/media/photo-s/0a/87/df/19/getlstd-property-photo.jpg",
+        "membership_level": "Bronze",
+        "hours": "8am - 11pm PST"
+      },
+      {
+        "name": "Hunter Coffee & Bistro",
+        "address": "Avenida Lopez Mateos, 853 Downtown, Ensenada, Ensenada Municipality 22800 Mexico",
+        "phone": "+526469788168",
+        "website": "https://www.tripadvisor.com/Restaurant_Review-g150770-d23645877-Reviews-Hunter_Coffee_Bistro-Ensenada_Ensenada_Municipality_Baja_California.html",
+        "websiteName":"Direct Link: Hunter Coffee & Bistro",
+        "img url": "https://media-cdn.tripadvisor.com/media/photo-s/2b/31/28/09/hunter-entrance.jpg",
+        "membership_level": "Bronze",
+        "hours": "8am - 10pm PST"
+      },
+      {
+        "name": "Hogaza Hogaza",
+        "address": "Calle Primera y /O Adolfo Lopez Mateos 1090 Loc. 12 Avenida, Ensenada, Ensenada Municipality 22800 Mexico",
+        "phone": "+526461736045",
+        "website": "https://www.tripadvisor.com/Restaurant_Review-g150770-d5964638-Reviews-Hogaza_Hogaza-Ensenada_Ensenada_Municipality_Baja_California.html",
+        "websiteName":"Direct Link: Hogaza Hogaza",
+        "img url": "https://media-cdn.tripadvisor.com/media/photo-p/07/6f/bd/fa/mini-postres-de-prueba.jpg",
+        "membership_level": "NP no fee",
+        "hours": "7:30am - 9pm PST"
+      },
+      {
+        "name": "Malva",
+        "address": "Carretera Ensenada-Tecate km 96 Valle de Guadalupe, Ensenada,Ensenada Municipality 22755 Mexico",
+        "phone": "+526461553085",
+        "website": "https://www.tripadvisor.com/Restaurant_Review-g150770-d5976818-Reviews-Malva-Ensenada_Ensenada_Municipality_Baja_California.html",
+        "websiteName":"Direct Link: Malva",
+        "img url": "https://d6qyz3em3b312.cloudfront.net/upload/images/media/2016/12/08/11999774_992938140727784_2082996071702134111_o.2048x1024.jpg",
+        "membership_level": "Silver",
+        "hours": "1pm - 9pm PST"
+      },
+      {
+        "name": "Quercus Restaurante",
+        "address": "Calle C 236 San Antonio de las Minas, Ensenada, Ensenada Municipality 22822 Mexico",
+        "phone": "+526463404946",
+        "website": "https://www.tripadvisor.com/Restaurant_Review-g150770-d4427164-Reviews-Quercus_Restaurante-Ensenada_Ensenada_Municipality_Baja_California.html",
+        "websiteName":"Direct Link: Quercus Restaurante",
+        "img url": "https://www.bajabound.com/images/content/quercus_66351.jpg",
+        "membership_level": "Gold",
+        "hours": "1pm - 11pm PST"
+      },
+      {
+        "name": "Bodegas de Santo Tomas",
+        "address": "Avenida Miramar 666 btwn calles 6 & 7, Ensenada, Ensenada Municipality 22800 Mexico",
+        "phone": "5591506448",
+        "website": "https://santo-tomas.com/#/Inicio",
+        "websiteName":"Direct Link: Bodegas de Santo Tomas",
+        "img url": "https://agua.org.mx/wp-content/uploads/2019/07/vinedos-ensenada-cortesia-bodega-santo-tomas-550.jpg",
+        "membership_level": "Gold",
+        "hours": "12pm-9pm PST"
+      },
+      {
+        "name": "Finca Altozano",
+        "address": "Km 83 No.3 Ensenada-tecate Valle de Guadalupe,Ensenada,Ensenada Municipality 22750 Mexico",
+        "phone": "+526466881016",
+        "website": "https://www.tripadvisor.com/Restaurant_Review-g150770-d3500795-Reviews-Finca_Altozano-Ensenada_Ensenada_Municipality_Baja_California.html",
+        "websiteName":"Direct Link: Finca Altozano",
+        "img url": "https://mbmarcobeteta.com/wp-content/uploads/2021/01/VALLE-GUADALUPE_FINCA-ALTOZANO1.jpg",
+        "membership_level": "Silver",
+        "hours": "12pm - 8pm PST"
+      }
+    ]
+  }
