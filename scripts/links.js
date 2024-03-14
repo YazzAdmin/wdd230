@@ -31,6 +31,14 @@ async function getLinks() {
   
       learningActivities.appendChild(weekItem);
     });
+
+    const week10Item = document.createElement("li");
+    const week10Link = document.createElement("a");
+    week10Link.href = baseURL + "lesson10/weather.html";
+    weekTitle.textContent = "Week " + lesson.lesson + ": ";
+    week10Item.appendChild(weekTitle);
+    week10Item.appendChild(week10Link);
+    learningActivities.appendChild(week10Item);
   }
   
   getLinks();
