@@ -1,0 +1,38 @@
+.Weather {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style for the main heading */
+  .Weather h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the current temperature */
+  #current-temp {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* Style for the weather icon */
+  #weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: rgb(0, 170, 255);
+  }
+  
+  /* Style for the weather description */
+  figcaption {
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  /* Style for the footer */
+  footer {
+    margin-top: 20px;
+    font-size: 14px;
+  }
