@@ -2,8 +2,7 @@ const latitude = '37.5631287183819'; // Latitude of Seoul, Korea
 const longitude = '127.02562347728005'; // Longitude of Seoul, Korea
 const apiKey = '15666693dc3c19d61e8856762aed2bd7';
 
-
-const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${apiKey}`;
+const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`;
 
 // Function to fetch weather data 
 async function fetchWeatherData() {
@@ -19,18 +18,18 @@ async function fetchWeatherData() {
   }
 }
 
-// Function to update weather information in the HTML
+// To update weather information in the HTML
 function updateWeatherInfo(weatherData) {
-  const temperature = Math.round(weatherData.main.temp); //Round
+  const temperature = Math.round(weatherData.main.temp); 
   const description = weatherData.weather[0].description;
   const icon = weatherData.weather[0].icon;
 
-  // Update HTML elements with weather data
+  // TO Update HTML elements with weather data
   const temperatureElement = document.querySelector('.temperature');
   const descriptionElement = document.querySelector('.description');
   const iconElement = document.querySelector('.weather-icon');
 
-  temperatureElement.textContent = `${temperature}°C`;
+  temperatureElement.textContent = `${temperature}°F`; 
   descriptionElement.textContent = description;
   iconElement.setAttribute('src', `https://openweathermap.org/img/w/${icon}.png`);
 }
