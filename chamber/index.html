@@ -17,7 +17,7 @@
     <meta property="og:url" content="https://yazzadmin.github.io/wdd230/">
     
 </head>
-<body>
+<body class="index-page">
     <header>
     <img src="images/lchamber.webp" alt="logo">
     
@@ -35,10 +35,14 @@
             </ul>
         </nav>
     
-    
+     
    </div>
         
-     
+   <div id="banner" style="display: none;">
+    <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+    <button id="closeBannerButton" aria-label="Close banner">❌</button>
+   </div>
+
     <main>
         <div class="toggle-container">
             <input type="checkbox" id="darkModeToggle" class="checkbox">
@@ -64,10 +68,33 @@
         </div>
         <div id="weather-section" class="placeholder">
             <h2>Weather</h2>
-            <p>Now in Ensenada</p>
-            <p>Temperature: <span id="temperature">55</span> °F</p>
-            <p>Wind Speed: <span id="windSpeed">6.5</span> mph</p>
-            <p>Wind Chill: <span id="windChill"></span></p>
+            <p>Now in Ensenada: <span id="description">Loading...</span></p>
+            <div id="weather-icon-container"></div>
+
+            <!-- Current weather -->
+            <div class="weather-day" id="current-day">Loading...</div>
+            <div class="weather-info" id="current-temperature">Loading...</div>
+            <div class="weather-info" id="current-wind-speed">Loading...</div>
+            <div class="weather-info" id="current-wind-chill">Loading...</div>
+
+            <!-- Day 1 -->
+            <div class="weather-day" id="day1">Loading...</div>
+            <div class="weather-info" id="temperature1">Loading...</div>
+            <div class="weather-info" id="windSpeed1">Loading...</div>
+            <div class="weather-info" id="windChill1">Loading...</div>
+
+            <!-- Day 2 -->
+            <div class="weather-day" id="day2">Loading...</div>
+            <div class="weather-info" id="temperature2">Loading...</div>
+            <div class="weather-info" id="windSpeed2">Loading...</div>
+            <div class="weather-info" id="windChill2">Loading...</div>
+
+            <!-- Day 3 -->
+            <div class="weather-day" id="day3">Loading...</div>
+            <div class="weather-info" id="temperature3">Loading...</div>
+            <div class="weather-info" id="windSpeed3">Loading...</div>
+            <div class="weather-info" id="windChill3">Loading...</div>
+                
         </div>
         <div id="event-section" class="placeholder">
             <h2>Events</h2>
@@ -96,11 +123,7 @@
 
         </section>
       
-        <div id="mapdiv">
        
-            <iframe  id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108458.38252689605!2d-116.67010055091997!3d31.84338517495567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d88ef01f54b9f5%3A0xf360981bb676a651!2sEnsenada%2C%20Baja%20California!5e0!3m2!1sen!2smx!4v1707014812566!5m2!1sen!2smx"></iframe>
-
-        </div>
     </main>
     <footer>
         &copy; 2024 | Ensenada Chamber of Commerce | Yazmin Cuevas|WDD 230 Project | <span id="lastModification"></span>|
@@ -108,7 +131,7 @@
        
     </footer>
     <script src="scripts/base.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/getdates.js"></script>
    
 </body>

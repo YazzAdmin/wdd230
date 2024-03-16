@@ -162,7 +162,7 @@ main {
     text-align: center;
     color: #023047;
     width: 300px; 
-    height: 150px; 
+    height: 550px; 
     margin: 0 auto; 
     box-sizing: border-box; 
     overflow: hidden;
@@ -186,6 +186,44 @@ main {
     margin-top: 15px;
 }
 
+/* Today's Weather */
+.weather-today {
+    margin-bottom: 20px; /* Add spacing below today's weather */
+    
+}
+
+/* Spacing between today and forecast */
+.weather-spacing {
+    height: 30px; /* Adjust the height for spacing */
+}
+
+/* Forecast Section */
+.weather-forecast {
+    width: 100%; /* Make the forecast section take full width */
+    display: flex;
+    flex-wrap: wrap; /* Allow forecast items to wrap */
+    justify-content: space-between; /* Add space between forecast items */
+    gap: 10px; /* Adjust gap between forecast items */
+}
+
+.weather-day {
+    flex-basis: 30%; /* Adjust width of each forecast item */
+    background-color: #FFD166;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.weather-info {
+    margin-bottom: 10px; /* Add space between weather information */
+}
+
+
+#description {
+    font-size: 18px;
+}
+
 #event-section {
     width: calc(50% - 20px);
     float: left;
@@ -193,11 +231,41 @@ main {
     margin-bottom: 15px;
 }
 
+.weather-icon-container {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+   
+}
+
+#banner {
+    padding: 10px;
+    margin-top: 17px;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+#closeBannerButton {
+    position: relative;
+    margin-left: 570px;
+    background-color: #FFB703;
+    color: #023047; 
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 17px; 
+    line-height: 1;
+    margin-top: -30px; 
+    padding-top: -10px;
+}
+
+
 .spotlight {
-    width: calc(33.33% - 20px); /* Adjust as needed */
+    width: calc(33.33% - 20px); 
     float: left;
     margin: 10px;
-    margin-bottom: 29px;
+    margin-bottom: -10px;
 }
 
 .spotlight-container {
@@ -244,7 +312,18 @@ main {
 .img{
     aspect-ratio: 69/420;
 }
+.index-page main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+
+
+.index-page footer {
+    clear: both;
+    margin-top: 20px;
+}
 
 footer {
     text-align: center;
@@ -347,12 +426,7 @@ body {
 	display: block;
 }
 
-#map{
-	text-align: center;
-	height : 300px ;
-	width :100%;
-  
-  }
+
 
  /* Sidebar layout */
  #discover-main {
