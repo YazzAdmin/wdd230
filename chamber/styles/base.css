@@ -188,7 +188,7 @@ main {
 
 /* Today's Weather */
 .weather-today {
-    margin-bottom: 20px; /* Add spacing below today's weather */
+    margin-bottom: 20px; 
     
 }
 
@@ -265,6 +265,7 @@ main {
     float: left;
     margin: 10px;
     margin-bottom: -10px;
+    box-sizing: border-box;
 }
 
 .spotlight-container {
@@ -287,6 +288,12 @@ main {
     color: #333;
 }
 
+@media only screen and (max-width: 768px) {
+    .spotlight {
+        width: calc(100% - 9px); 
+        margin: 10px 0; 
+    }
+}
 #text p {
     border: 3px solid #FFB703;
     padding: 20px; 
@@ -535,7 +542,7 @@ aside {
     text-align: center;
 }
 
-discover h1{
+.discover h1{
     text-align: center;
     align-items: center;
     border-style: dotted;
@@ -581,7 +588,7 @@ h4{
     font-size:xx-large;
 }
 
-discover h3{
+.discover h3{
     text-align: center;
     align-items: center;
     border-style: dotted;
@@ -596,6 +603,22 @@ discover h3{
     text-align: center;
     font-size: xx-large;
 }
+
+.variety-heading {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #FFB703;
+    padding: 15px;
+    margin: 0;
+    border-style: dotted;
+    font-size: 25px;
+    margin-top: -15px;
+    margin-bottom: -15px; 
+    
+}
+
 /* Media Query for wider than mobile viewports.*/
 @media only screen and (min-width: 40em) {
 	.navigation {
@@ -730,7 +753,7 @@ discover h3{
 
 /*----------- Thank you STYLING --------------*/
 .thank-you-container {
-    font-family: Arial, sans-serif;
+    font-family: Ubuntu, sans-serif;
     text-align: center;
     background-color: #219EBC;
     padding: 20px;
@@ -804,7 +827,7 @@ discover h3{
 
  h1 {
     text-align: center;
-    color: #FFB703;
+    color: #f9f8f5;
     font-size: 28px;
     
 }
