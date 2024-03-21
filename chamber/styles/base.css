@@ -2,7 +2,7 @@
 
 
 body {
-    font-family: "Open sans", sans-serif, "Ubuntu", sans-serif;
+    font-family: "Open Sans", sans-serif, "Ubuntu", sans-serif;
     background-color: #219EBC;
     color: #023047;
     margin: 0;
@@ -107,7 +107,7 @@ main {
 /* Dark mode styles */
 .dark-mode {
     background-color: #023047;
-    color: #8ECAE6;
+    color: #023047;
 }
 
 .dark-mode header img:first-child {
@@ -126,6 +126,12 @@ main {
     background-color: #023047;
 }
 
+/* .dark-mode .menu.container{
+    color: #023047;
+} */
+.dark-mode #text{
+    background-color: #FFB703;
+}
 
 .header-content {
     position: relative;
