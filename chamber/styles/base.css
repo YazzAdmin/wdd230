@@ -304,6 +304,7 @@ main {
     border: 3px solid #FFB703;
     padding: 20px; 
     color:black;
+    background-color: #FFB703;
 }
 .card {
     background-color:#8ECAE6;
