@@ -843,7 +843,7 @@ h4{
     text-align: center;
     font-size: 34px;
     font-weight: bold;
-    color: black;
+    color: #fff;
 }
 .list #members {
     display: flex;
