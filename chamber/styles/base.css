@@ -166,7 +166,7 @@ main {
     background-color: #fff;
     font-weight: bold;
     text-align: center;
-    color: #1270c8;
+    color: black;
     width: 300px; 
     height: 550px; 
     margin: 0 auto; 
@@ -303,7 +303,7 @@ main {
 #text p {
     border: 3px solid #FFB703;
     padding: 20px; 
-    color:#fff;
+    color:black;
 }
 .card {
     background-color:#8ECAE6;
@@ -833,7 +833,7 @@ h4{
 
  h1 {
     text-align: center;
-    color: #fff;
+    color: #FFB703;
     font-size: 28px;
     
 }
