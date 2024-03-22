@@ -671,7 +671,7 @@ h4{
 
 #join-heading {
     text-align: center;
-    color: #FFB703;
+    color: #1270c8;
 }
 #join-form {
     margin: 20px auto;
@@ -684,7 +684,7 @@ h4{
 
 #join-form label {
     font-weight: bold;
-    color: #1270c8;
+    color: #219EBC;
 }
 
 #join-form input[type="text"],
@@ -728,7 +728,7 @@ h4{
 #membership-benefits h2 {
     font-size: 20px;
     margin-bottom: 9px;
-    color: #FFB703;
+    color: #1270c8;
     background-color: white;
     margin-top: 9px;
     font-size: xx-large;
@@ -754,7 +754,7 @@ h4{
 
 
 #membership-benefits .membership-info {
-    color: #1270c8; 
+    color: #219EBC; 
 }
 
 /*----------- Thank you STYLING --------------*/
@@ -833,7 +833,7 @@ h4{
 
  h1 {
     text-align: center;
-    color: #f9f8f5;
+    color: black;
     font-size: 28px;
     
 }
