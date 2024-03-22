@@ -222,7 +222,7 @@ main {
 }
 
 .weather-info {
-    margin-bottom: 10px; 
+    margin-bottom: 6px; 
 }
 
 
@@ -839,6 +839,12 @@ h4{
     
 }
 
+.members-title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: #023047;
+}
 .list #members {
     display: flex;
     flex-direction: column; 
