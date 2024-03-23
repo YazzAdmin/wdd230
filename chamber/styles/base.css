@@ -819,14 +819,12 @@ h4{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    text-wrap:wrap;
 
 }
 
 .card {
-    /* Add these lines */
-    min-height: 200px; /* Adjust the minimum height as needed */
-    height: auto; /* Allow the height to adjust based on content */
+    min-height: 200px; 
+    height: auto;
     
 }
 

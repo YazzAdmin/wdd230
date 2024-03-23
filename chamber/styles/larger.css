@@ -91,7 +91,7 @@ nav a:hover {
     }
 
     .list .card p, .list .card a {
-        margin: 5px 0; /* Adjust margin for spacing */
+        margin: 5px 0; 
         overflow: hidden; 
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -100,7 +100,7 @@ nav a:hover {
     }
 
     .list .card h2 {
-        margin: 10px 0; /* Add margin for spacing */
+        margin: 10px 0; 
 
     }
 }
