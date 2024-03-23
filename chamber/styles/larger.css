@@ -95,7 +95,6 @@ nav a:hover {
         overflow: hidden; 
         text-overflow: ellipsis;
         white-space: nowrap;
-		text-wrap: wrap;
 		font-size: 10px;
     }
 
