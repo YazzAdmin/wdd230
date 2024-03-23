@@ -14,3 +14,4 @@ darkModeToggle.addEventListener('change', () => {
 
 
 document.getElementById('timestamp').value = Date.now();
+

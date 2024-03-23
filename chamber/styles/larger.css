@@ -76,6 +76,32 @@ nav a:hover {
     #discover-main {
         grid-template-columns: repeat(2, 1fr); 
     }
-
 	
 }
+@media only screen and (max-width: 768px) {
+    .list .card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin-bottom: 15px;
+	
+    }
+
+    .list .card p, .list .card a {
+        margin: 5px 0; /* Adjust margin for spacing */
+        overflow: hidden; 
+        text-overflow: ellipsis;
+        white-space: nowrap;
+		text-wrap: wrap;
+		font-size: 10px;
+    }
+
+    .list .card h2 {
+        margin: 10px 0; /* Add margin for spacing */
+
+    }
+}
+

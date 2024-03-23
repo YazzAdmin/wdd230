@@ -168,7 +168,7 @@ main {
     text-align: center;
     color: black;
     width: 300px; 
-    height: 850px; 
+    height: 600px; 
     margin: 0 auto; 
     box-sizing: border-box; 
     overflow: hidden;
@@ -190,6 +190,7 @@ main {
     width: calc(50% - 1px); 
     margin-bottom: 15px;
     margin-top: 15px;
+    width: 100%;
 }
 
 /* Today's Weather */
@@ -235,6 +236,7 @@ main {
     float: left;
     margin-top: 15px;
     margin-bottom: 15px;
+    width:100%;
 }
 
 .weather-icon-container {
@@ -387,15 +389,10 @@ body {
 	font-family: OpenSans, sans-serif;
 }
 /* Mobile View ***************/
-#menu-container{
-    position:relative;
-    align-self: start;
-}
+
 
 #menu {
-    position: absolute;
-    top:-240px;
-    right:10px;   
+   
     display:block;
 	font-size: 2rem;
 	font-weight:700;
@@ -819,14 +816,29 @@ h4{
 .card p {
     text-align: center;
     margin-bottom: 10px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap:wrap;
 
+}
+
+.card {
+    /* Add these lines */
+    min-height: 200px; /* Adjust the minimum height as needed */
+    height: auto; /* Allow the height to adjust based on content */
+    
 }
 
 .card a {
     text-decoration: none; 
     color: #023047; 
     font-weight: bold; 
+    
+    
 }
+
+
 
 .card a:hover {
     text-decoration: underline; 
@@ -866,3 +878,71 @@ h4{
 .list .card p {
     margin: 0;
 }
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.menu {
+    margin:0;
+    padding:15px;
+    text-align: center;
+    }
+.open {
+    display: flex;
+    flex-direction: column;
+      }
+#menu {
+    font-size: 2.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 0;
+    margin:0;
+      }
+
+    nav{ max-width: 90%;
+    display: none;
+    flex-direction: row;
+    }
+
+    .list.card p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+          text-align: justify;
+        
+      }
+
+      .list section p:hover{
+        white-space: normal;
+        overflow: visible;
+        text-overflow: unset;
+      }
+
+      
+    .card p, .card a {
+        margin: 5px 0;
+        white-space: normal; 
+        overflow:hidden;
+        text-overflow: initial; 
+        max-width: fit-content;
+        
+    }
+
+    div.list section {
+        display: grid;
+        grid-template-columns: 60px 1fr 2fr 1fr 1fr 1fr;
+        text-align: left;
+        margin: 0.5rem 2rem;
+        border: solid 1px #0b092e;
+        border-radius: 5px;
+        overflow: hidden;
+        align-items: center;
+        gap: 10px;
+    }
+    
