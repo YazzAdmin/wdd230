@@ -103,5 +103,15 @@ nav a:hover {
         margin: 10px 0; 
 
     }
+	#weather-section,
+    #event-section {
+        width: 100%; 
+        float: none; 
+        margin: 15px 0; 
+    }
+
+	
 }
+
+
 
