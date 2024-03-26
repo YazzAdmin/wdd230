@@ -117,7 +117,15 @@ nav a:hover {
 	#membership-benefits {
         font-size: 16px; 
         line-height: 1.3; 
+		overflow: hidden;
     }
+
+	#join-form label {
+		font-size: 16px; 
+        line-height: 1.3; 
+		overflow: hidden;
+	}
+
 	
 }
 
