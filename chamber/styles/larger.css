@@ -87,6 +87,7 @@ nav a:hover {
         border: 1px solid #ccc;
         border-radius: 8px;
         margin-bottom: 15px;
+		overflow: hidden;
 	
     }
 
@@ -94,7 +95,6 @@ nav a:hover {
         margin: 5px 0; 
         overflow: hidden; 
         text-overflow: ellipsis;
-        white-space: nowrap;
 		white-space: normal;
 		font-size: 10px;
     }
