@@ -648,11 +648,13 @@ h4{
     #join-form,
     #membership-benefits {
         width: calc(50% - 10px);
+        overflow: hidden;
     }
     
     body.join-page main {
         display: flex;
         justify-content: space-between;
+        
       
     }
     
@@ -670,6 +672,7 @@ h4{
 #join-heading {
     text-align: center;
     color: #1270c8;
+    overflow: hidden;
 }
 #join-form {
     margin: 20px auto;
@@ -678,6 +681,7 @@ h4{
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
+    overflow: hidden;
 }
 
 #join-form label {
