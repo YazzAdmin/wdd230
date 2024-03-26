@@ -117,7 +117,7 @@ nav a:hover {
 	#membership-benefits {
         font-size: 16px; 
         line-height: 1.2; 
-
+		overflow: hidden;
     }
 
 	#join-form label {
@@ -125,11 +125,22 @@ nav a:hover {
         line-height: 1.2; 
 		
 	}
+
 	#membership-benefits h2 {
 		font-size: 16px; 
         line-height: 1.2; 
+	}
 
-	
+
+	#join-form input[type="text"],
+    #join-form input[type="email"],
+    #join-form input[type="tel"],
+    #join-form textarea,
+    #join-form select {
+        width: calc(100% - 20px); 
+        padding: 8px; 
+        margin-bottom: 8px; 
+    }
 }
 
 
