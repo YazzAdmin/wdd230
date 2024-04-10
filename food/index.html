@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Route</title>
+    <meta name="description" content="Supporting local businesses.">
+    <meta name="author" content="Yazmin Cuevas">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Food Route">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://wallpaperaccess.com/full/17698.jpg">
+    <meta property="og:url" content="https://yazzadmin.github.io/wdd230/">
+
+</head>
+<body>
+    <header>
+        <img src="images/45b9d0f80e1140019c252be8cc853803.webp" alt="logo">
+    
+        <button class="menu-toggle" onclick="toggleMenu()">Menu</button>
+        <nav class="navigation">
+          <a href="index.html" class="navLinks active">Home</a>
+          <a href="about.html" class="navLinks">About</a>
+          <a href="contact.html" class="navLinks">Contact</a>
+          <a href="subscribe.html" class="navLinks">Subscribe</a>
+        </nav>
+          
+        </header>
+        <main>
+            <section>
+                
+                <div class="header">
+                    <div class="hero">
+                        <picture>
+                            <source srcset="images/pexels-naufal-shidqi-12272583-small.webp" media="(max-width: 500px)">
+                            <source srcset="images/pexels-naufal-shidqi-12272583-medium.webp" media="(max-width: 1000px)">
+                            <img src="images/pexels-naufal-shidqi-12272583-large.webp" alt="org" width="1500" height="750">
+                        </picture>
+                        <a href="subscribe.html" class="subscribe-button">Subscribe</a>
+                    </div>
+                        
+                
+                </div>
+            <div id="text">
+                <p>
+                    Starting a small business could be scary. The Food Route is here to join forces along with the community to help you achieve your goals.
+                </p>
+            </div>
+            <section id="section-one">
+                <div class="restaurant-info">
+                    <p>Explore</p>
+                </div>
+            </section>
+            <section id="section-two">
+                <div class="restaurant-info">
+                    <p>Restaurants</p>
+                </div>
+            </section>
+        </main>
+
+        </main>
+        <div id="placeholder">
+            <picture class="Slide-in">
+                <img src="images/pexels-senuscape-2313686-meat.webp" alt="placeholder meat" loading="lazy" width="642" height="400">
+            </picture>
+            <picture class="Slide-in">
+                <img src="images/pexels-agustin-navarro-14469643-bread.webp" alt="placeholder bread" loading="lazy" width="634" height="400">
+            </picture>
+            <picture class="Slide-in">
+                <img src="images/pexels-pixabay-357756-sushi.webp" alt="placeholder sushi" loading="lazy" width="623" height="400">
+            </picture>
+            
+            <div class="arrow left" onclick="slide(-1)">&#10094;</div>
+            <div class="arrow right" onclick="slide(1)">&#10095;</div>
+        </div>
+        <footer>
+            &copy; 2024 ~ Food Route ~ Yazmin Cuevas ~ WDD 230 Final Project ~ 
+            <span id="lastModification"></span>
+            <h1>Seoul,Korea. Food Route</h1>
+           
+        </footer>
+        <script src="scripts/dates.js"></script>
+        <script src="scripts/slide.js"></script>
+        <script src="scripts/menu.js"></script>
+    
+</body>
+</html>

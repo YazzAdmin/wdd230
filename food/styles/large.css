@@ -1,0 +1,10 @@
+@media only screen and (min-width: 768px) {
+    .navigation {
+        flex-direction: row; 
+        margin-top: 0;
+    }
+
+    .navLinks {
+        margin: 0 10px;
+    }
+}

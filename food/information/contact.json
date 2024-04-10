@@ -1,0 +1,44 @@
+{
+    "contacts": [
+        {
+            "Name": "Tteokbokki (떡볶이)",
+            "FoodStyle": "Spicy Stir Fried Rice Cakes",
+            "Number": "02-312-3456",
+            "Languages": "Korean/English/Spanish",
+            "Address": "546 Dobong-dong, Dobong-gu, Seoul, South Korea",
+            "Image": "https://inmykorea.com/wp-content/uploads/2023/07/Korean-street-food-tteokbokki.jpg"
+        },
+        {
+            "Name": "Gyeran-Ppang (계란빵)",
+            "FoodStyle": "Egg Bread",
+            "Number": "02-312-7856",
+            "Languages": "Korean/English/French",
+            "Address": "86 Dobongsan-gil, Dobong-gu, Seoul, South Korea",
+            "Image": "https://inmykorea.com/wp-content/uploads/2023/07/Gyeran-Ppang-Egg-Bread-in-Seoul.jpg"
+        },
+        {
+            "Name": "Bungeo-Ppang (붕어빵)",
+            "FoodStyle": "Red Bean Goldfish Pastry",
+            "Number": "02-312-6755",
+            "Languages": "Korean/English",
+            "Address": "519 Seokguram-gil, Jangheung-myeon, Yangju-si, Gyeonggi-do, South Korea",
+            "Image": "https://inmykorea.com/wp-content/uploads/2023/07/Korean-Street-Food-Bungeo-Ppang-Fish-Bread.jpg"
+        },
+        {
+            "Name": "Gamja Hot Dogs (감자핫도그)",
+            "FoodStyle": "Korean-Style Hot Dogs",
+            "Number": "02-312-3390",
+            "Languages": "Korean",
+            "Address": "13 Dobong-ro 181-gil, Dobong-gu, Seoul, South Korea",
+            "Image": "https://inmykorea.com/wp-content/uploads/2023/07/Korean-style-potato-hot-dogs.jpg"
+        },
+        {
+            "Name": "Dakgangjeong (닭강정)",
+            "FoodStyle": "Sweet-Crispy Fried Chicken",
+            "Number": "02-312-2199",
+            "Languages": "English/Spanish/French/German",
+            "Address": "7 Dodang-ro 2-gil, Dobong-gu, Seoul, South Korea",
+            "Image": "https://inmykorea.com/wp-content/uploads/2023/07/Dakgangjeong-Korean-Fried-Chicken.jpg"
+        }
+    ]
+}
