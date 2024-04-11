@@ -79,7 +79,7 @@ main {
     background-color: #9D8189;
     padding: 20px;
     border-radius: 10px;
-    margin-left: 900px;
+    margin-left: 800px;
 }
 
 #text p {
@@ -172,7 +172,7 @@ footer {
 
 .arrow {
     position: absolute;
-    top: 145%;
+    top: 155%;
     transform: translateY(-50%);
     width: 50px;
     height: 50px;
