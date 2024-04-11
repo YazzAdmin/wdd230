@@ -148,7 +148,22 @@ footer {
 
 #placeholder {
     max-width: 100%;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.Slide-in {
+    flex: 0 0 calc(33.00% - 20px); /* Adjust width to fit 3 images per row */
+    margin: 10px; /* Add margin to create spacing between images */
+}
+
+.Slide-in img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .Slide-in:nth-child(1) {
@@ -157,7 +172,7 @@ footer {
 
 .arrow {
     position: absolute;
-    top: 35%;
+    top: 145%;
     transform: translateY(-50%);
     width: 50px;
     height: 50px;
@@ -168,14 +183,15 @@ footer {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    z-index: 1; 
 }
 
 .arrow.left {
-    left: 0;
+    left: 10px;;
 }
 
 .arrow.right {
-    right: 0;
+    right: 10px;;
 }
 
 /* About page styling */
