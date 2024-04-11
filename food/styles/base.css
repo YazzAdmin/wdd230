@@ -156,8 +156,8 @@ footer {
 }
 
 .Slide-in {
-    flex: 0 0 calc(33.00% - 20px); /* Adjust width to fit 3 images per row */
-    margin: 10px; /* Add margin to create spacing between images */
+    flex: 0 0 calc(33.00% - 20px); 
+    margin: 10px; 
 }
 
 .Slide-in img {
