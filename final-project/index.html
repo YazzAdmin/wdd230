@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots</title>
+    <meta name="description" content="Scoots-Final-Project">
+    <meta name="author" content="Yazmin Cuevas">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Scoots">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.mexperience.com/wp-content/uploads/Cozumel-Beach-Resort-Aerial-NBS.jpg">
+    <meta property="og:url" content="https://yazzadmin.github.io/wdd230/final-project">
+
+</head>
+<body>
+    <header>
+        <img src="images/f7f1115eb34941ea88b21d04a905d8fc.webp" alt="logo">
+    
+        <button class="menu-toggle" onclick="toggleMenu()">Menu</button>
+        <nav class="navigation">
+          <a href="index.html" class="navLinks active">Home</a>
+          <a href="rentals.html" class="navLinks">Rentals</a>
+          <a href="reservations.html" class="navLinks">Reservations</a>
+          <a href="contact.html" class="navLinks">Contact</a>
+        </nav>
+          
+        </header>
+        <main>
+            <section>
+                
+                <div class="header">
+                    <div class="hero">
+                        <picture>
+                            <source srcset="images/pexels-asad-photo-maldives-457882 -small.webp" media="(max-width: 500px)">
+                            <source srcset="images/pexels-asad-photo-maldives-457882 -medium.webp" media="(max-width: 1000px)">
+                            <img src="images/pexels-asad-photo-maldives-457882 -large.webp" alt="org" width="1500" height="750">
+                        </picture>
+                    </div>
+                        
+                
+            <section>
+                <div id="text">
+                    <p>Welcome to Scoots! We are happy you arrived to your guide for renting a motor scooter, jeeps or even side-by-side ATVs that you envision for your trip. First let us tell you a little bit about our rental Company. We have two locations on Cozumel. We want to help you plan ahead providing you with everything you need to know about what we offer, the must have paperwork and a smooth way to your rental. You will find we have the best options. You will know exactly where to locate us. Your trip plans will not be delayed as you will be set once you arrive allowing you to head straight into the fun of our amazing scenary and tourist attractions you do  not want to miss!</p>
+                </div>
+            </section>
+
+        
+
+            <div class="weather-banner">
+                <div id="weather-container">    
+                    <p>Today's high temperature: <span id="high-temp"></span></p>
+                    <p>Current Temperature: <span id="current-temperature"></span></p>
+                    <img id="weather-icon" src="" alt="Weather Icon">
+                    <p id="current-humidity">Current Humidity: <span></span></p> 
+                    <p id="current-weather-main">Weather: <span id="current-weather-description"></span></p>
+                    <p id="next-day-forecast">Next Day's Forecasted Temperature at 3:00pm: <span id="next-day-temperature"></span></p>
+                    <img id="next-day-icon" src="" alt="Next Day's Weather Icon">
+                    <div id="weather-data-points">
+                      
+                    </div>
+                    
+                </div>
+                <button id="closeBannerButton" class="close-button" onclick="closeBanner()">Close</button>
+            </div>
+
+            <section class="rental-summary">
+                <h2>Types of rentals include: Honda Motor Scooters, side-by-side ATV's and Jeeps.</h2>
+                <div class="rental-info">
+                    <div class="rental-item">
+                        <img src="images/thumbnail-364x204.webp" alt="Motor Scooter" loading="lazy" width="500" height="400">
+                        <h3>Honda Metropolitan (49cc) ~ 1 person</h3>
+                        <p>Choose from a variety of motor scooters, perfect for exploring the island.</p>
+                        <a href="reservations.html"><button class="reserve-button">Make a reservation</button></a>
+                    </div>
+                
+
+                
+                    <div class="rental-item">
+                        <img src="images/Honda-Dio-Black-WEB.webp" alt="Motor Scooter" loading="lazy" width="500" height="400">
+                        <h3>Honda Dio (110cc) ~ 2 person</h3>
+                        <p>Ready for you! </p>
+                        <a href="reservations.html"><button class="reserve-button">Make a reservation</button></a>
+                    </div>
+                
+
+                
+                    <div class="rental-item">
+                        <img src="images/images.jpg" alt="Motor Scooter" loading="lazy" width="500" height="400">
+                        <h3>Honda PCX150 (149cc) ~ 2 person</h3>
+                        <p>This is another great option! </p>
+                        <a href="reservations.html"><button class="reserve-button">Make a reservation</button></a>
+                    </div>
+                
+
+
+                    <div class="rental-item">
+                        <img src="images/2024-pioneer-1000-deluxe-360-1.webp" alt="ATV" loading="lazy" width="500" height="400">
+                        <h3>Honda Pioneer 1000 - 4 person</h3>
+                        <p>Experience the thrill of off-roading with our side-by-side ATVs.</p>
+                        <a href="reservations.html"><button class="reserve-button">Make a reservation</button></a>
+                    </div>
+
+
+
+                    <div class="rental-item">
+                        <img src="images/red.webp" alt="Jeep" loading="lazy" loading="lazy" width="500" height="400">
+                        <h3>Jeep Wrangler - 4 door manuel with A/C ~ 5 person</h3>
+                        <p>Rent a Jeep for off-road adventures and exploring Cozumel's rugged terrain.</p>
+                        <a href="reservations.html"><button class="reserve-button">Make a reservation</button></a>
+                    </div>
+
+
+
+                    <div class="rental-item">
+                        <img src="images/green.webp" alt="Jeep" loading="lazy" width="500" height="400">
+                        <h3>Jeep Wrangler ~ 2 door ~ open air ~ manuel ~ 4 person</h3>
+                        <p>Solo or with a special something, it will take you places. </p>
+                        <a href="reservations.html"><button class="reserve-button">Make a reservation</button></a>
+                    </div>
+
+                </div>
+            </section>
+    
+            <section class="social-media">
+                
+                <h2>Connect with Us</h2>
+                <div class="social-links">
+                    
+                    <a href="https://www.facebook.com/" class="social-icon">Facebook</a>
+                    <a href="https://twitter.com/" class="social-icon">X</a>
+                    <a href="https://www.instagram.com/" class="social-icon">Instagram</a>
+                </div>
+            </section>
+    
+            <section class="closeable-message">
+                
+                <p>Today's high temperature: <span id="high-temp"></span></p>
+                
+                <button id="closeBannerButton" class="close-button" onclick="closeBanner()">Close</button>
+            </section>
+        </main>
+
+       
+        
+        
+        <footer>
+            &copy; 2024 ~ Scoots ~ Yazmin Cuevas ~ WDD 230 Final Project ~ 
+            <span id="lastModification"></span>
+            <h1>Scoots</h1>
+           
+        </footer>
+        <script src="scripts/date.js"></script>
+        <script src="scripts/menu.js"></script>
+        <script src="scripts/weather.js"></script>
+    
+</body>
+</html>

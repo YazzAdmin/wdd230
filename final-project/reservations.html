@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <meta name="description" content="Scoots - reservations">
+    <meta name="author" content="Yazmin Cuevas">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Scoots-reservatitons">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.mexperience.com/wp-content/uploads/Cozumel-Beach-Resort-Aerial-NBS.jpg">
+    <meta property="og:url" content="https://yazzadmin.github.io/wdd230/final-project">
+
+</head>
+<body>
+    <header>
+        <img src="images/f7f1115eb34941ea88b21d04a905d8fc.webp" alt="logo">
+    
+        <button class="menu-toggle" onclick="toggleMenu()">Menu</button>
+        <nav class="navigation">
+          <a href="index.html" class="navLinks active">Home</a>
+          <a href="rentals.html" class="navLinks">Rentals</a>
+          <a href="reservations.html" class="navLinks">Reservations</a>
+          <a href="contact.html" class="navLinks">Contact</a>
+       
+        </nav>
+          
+        </header>
+        <main>
+            <div id="reservationForm">
+                <h2>Rental Reservation Form</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="period">Rental Period:</label>
+                        <input type="text" id="period" name="period" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="rentalType">Rental Type:</label>
+                        <select id="rentalType" name="rentalType" required>
+                            <option value="">Select Rental Type</option>
+                            <option value="scooter">Scooter</option>
+                            <option value="atv">ATV</option>
+                            <option value="jeep">Jeep</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Number of Rentals:</label>
+                        <input type="number" id="number" name="number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number:</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="homeLocation">Home State or Country:</label>
+                        <input type="text" id="homeLocation" name="homeLocation" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cruiseLine">Cruise Line (if applicable):</label>
+                        <input type="text" id="cruiseLine" name="cruiseLine">
+                    </div>
+                    <div class="form-group">
+                        <label for="accommodations">Special Accommodations/Comments:</label>
+                        <textarea id="accommodations" name="accommodations"></textarea>
+                    </div>
+                    <button type="submit">Submit Reservation</button>
+                </form>
+            </div>
+
+            <div id="rentalServices">
+                <h2>Rental Services and Agreements</h2>
+                <ul>
+                    <li>A $50 security deposit is required to confirm reservations.</li>
+                    <li>A valid driver's license is required in hand at the time of rental.</li>
+                    <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                    <li>Fuel charge is not included.</li>
+                    <li>Unlimited mileage.</li>
+                    <li>Liability insurance is included.</li>
+                    <li>Damage insurance is available for purchase.</li>
+                    <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                    <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo.</li>
+                    <li>Rentals may be returned to either physical location.</li>
+                </ul>
+            </div>
+        </main>              
+               
+               
+      
+      <footer>
+        &copy; 2024 ~ Scoots ~ Yazmin Cuevas ~ WDD 230 Final Project ~ 
+        <span id="lastModification"></span>
+        <h1>Scoots</h1>
+      </footer>
+      <script src="scripts/date.js"></script>
+      <script src="scripts/menu.js"></script>
+      
+</body>
+</html>

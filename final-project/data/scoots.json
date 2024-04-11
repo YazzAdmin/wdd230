@@ -1,0 +1,96 @@
+{
+    "scoots": [
+      {
+        "name": "Motor Scooter",
+        "image": "images/thumbnail-364x204.webp",
+        "alt": "Motor Scooter",
+        "width": 500,
+        "height": 400
+      },
+      {
+        "name": "Motor Scooter",
+        "image": "images/Honda-Dio-Black-WEB.webp",
+        "alt": "Motor Scooter",
+        "width": 500,
+        "height": 400
+      },
+      {
+        "name": "Motor Scooter",
+        "image": "images/images.jpg",
+        "alt": "Motor Scooter",
+        "width": 500,
+        "height": 400
+      },
+      {
+        "name": "ATV",
+        "image": "images/2024-pioneer-1000-deluxe-360-1.webp",
+        "alt": "ATV",
+        "width": 500,
+        "height": 400
+      },
+      {
+        "name": "Jeep",
+        "image": "images/red.webp",
+        "alt": "Jeep",
+        "width": 500,
+        "height": 400
+      },
+      {
+        "name": "Jeep",
+        "image": "images/green.webp",
+        "alt": "Jeep",
+        "width": 500,
+        "height": 400
+      }
+    ],
+    "pricing": [
+      {
+        "vehicle": "~Honda Metro Scooter",
+        "maxPersons": 1,
+        "halfDayWalkIn": "$20",
+        "fullDayWalkIn": "$30",
+        "halfDayReservation": "$25",
+        "fullDayReservation": "$35"
+      },
+      {
+        "vehicle": "~Honda Dio Scooter",
+        "maxPersons": 2,
+        "halfDayWalkIn": "$30",
+        "fullDayWalkIn": "$40",
+        "halfDayReservation": "$35",
+        "fullDayReservation": "$45"
+      },
+      {
+        "vehicle": "~Honda PCX150 Scooter",
+        "maxPersons": 2,
+        "halfDayWalkIn": "$40",
+        "fullDayWalkIn": "$50",
+        "halfDayReservation": "$45",
+        "fullDayReservation": "$55"
+      },
+      {
+        "vehicle": "Honda Pioneer ATV",
+        "maxPersons": 4,
+        "halfDayWalkIn": "$50",
+        "fullDayWalkIn": "$70",
+        "halfDayReservation": "$60",
+        "fullDayReservation": "$80"
+      },
+      {
+        "vehicle": "Jeep Wrangler - 4 door with a/c",
+        "maxPersons": 5,
+        "halfDayWalkIn": "$70",
+        "fullDayWalkIn": "$100",
+        "halfDayReservation": "$85",
+        "fullDayReservation": "$125"
+      },
+      {
+        "vehicle": "Jeep Wrangler - 2 door",
+        "maxPersons": 4,
+        "halfDayWalkIn": "$60",
+        "fullDayWalkIn": "$85",
+        "halfDayReservation": "$70",
+        "fullDayReservation": "$90"
+      }
+    ]
+  }
