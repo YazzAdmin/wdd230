@@ -81,6 +81,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        overflow-y: auto;
     }
     .rental-item {
         flex: 0 0 100%;
@@ -88,15 +89,8 @@
         text-align: center;
     }
 
-    .rental-item img {
-        display: block; 
-        margin: 0 auto; 
-    }
+   
     
-  
-    main {
-        overflow-y: auto; 
-    }
 
     .weather-banner {
         left: -10px; 
@@ -115,15 +109,8 @@
         width: calc(50% - 20px);
     }
 
+    
 }
 
-.rental-item {
-    flex: 0 0 100%;
-    max-width: 100%;
-    text-align: center;
-}
 
-.rental-item img {
-    display: block; 
-    margin: 0 auto; 
-}
+

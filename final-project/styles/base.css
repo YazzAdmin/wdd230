@@ -60,6 +60,28 @@ main {
     margin: 0;
 }
 
+.rental-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.rental-item {
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    text-align: center;
+}
+
+.rental-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
 #text {
     margin-top: 20px;
     text-align: center;
@@ -262,6 +284,7 @@ footer {
     padding: 20px; 
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 50px;
 }
 
 .form-group {
@@ -272,7 +295,7 @@ footer {
 .form-group label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold; /* Make labels bold */
+    font-weight: bold;
 }
 
 .form-group input,
@@ -369,20 +392,20 @@ th {
     border: 1px solid #FED9B7;
 }
 
-.main-images {
+.rental-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
 }
 
-.main-images img {
+.rental-images img {
     width: calc(33.33% - 20px);
     margin-bottom: 20px;
     border-radius: 10px;
 }
 
-.rental-page .main-images {
+.rental-page .rental-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -390,31 +413,35 @@ th {
     margin-bottom: 60px;
 }
 
-.rental-page .main-images img {
+.rental-page .rental-images img {
     width: calc(33.33% - 20px);
     margin-bottom: 20px;
     border-radius: 10px;
 }
 
-#rentalServicesForm {
+#reservationForm {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f7f7f7;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
 }
 
 /* Style form labels */
-#rentalServicesForm label {
+#reservationForm label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
     color: #333;
+
 }
 
 /* Style form inputs */
-#rentalServicesForm input[type="text"] {
+#reservationForm input[type="date"],
+#reservationForm input[type="text"],
+#reservationForm input[type="email"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -424,7 +451,7 @@ th {
 }
 
 /* Style the submit button */
-#rentalServicesForm button[type="submit"] {
+#reservationForm button[type="submit"] {
     width: 100%;
     padding: 10px;
     font-size: 16px;
@@ -436,6 +463,35 @@ th {
     transition: background-color 0.3s;
 }
 
-#rentalServicesForm button[type="submit"]:hover {
-    background-color: #D94438;
+#reservationForm button[type="submit"]:hover {
+    background-color: #00AFB9;
+}
+
+#rentalServices {
+    max-width: 500px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    text-align: center; 
+    margin-bottom: 120px;
+}
+
+#rentalServices h2 {
+    margin-bottom: 20px; 
+    color: #F07167; 
+}
+
+#rentalServices ul {
+    list-style-type:circle; 
+    padding: 0;
+    margin-left: 10px;
+}
+
+#rentalServices li {
+    margin-bottom: 10px; 
+    text-align: left; 
+    color: #333; 
 }
